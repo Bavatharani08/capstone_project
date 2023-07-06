@@ -13,6 +13,7 @@
 import streamlit as st
 
 def user_input_features():
+        default_value_goes_here="I like the movie"
         review=st.text_input("statement", default_value_goes_here)
 
 
