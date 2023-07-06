@@ -11,6 +11,7 @@
 
 
 import streamlit as st
+import pandas as pd
 
 def user_input_features():
         default_value_goes_here="I like the movie"
