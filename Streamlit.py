@@ -30,8 +30,8 @@ st.title("Sentiment predictor")
 #st.write("Hello")
 
 st.write("""
-### Mobile Price Prediction App
-This app predicts the **Mobile Price Range**
+### SENTIMENT PREDICTION
+This app analyse the **SENTIMENTS**
 """)
 st.sidebar.header('User Input Features')
 st.subheader('User Input parameters')
