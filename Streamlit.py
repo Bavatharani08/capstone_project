@@ -14,7 +14,7 @@ import streamlit as st
 import pandas as pd
 
 def user_input_features():
-        default_value_goes_here="I like the movie"
+        default_value_goes_here="Enter the statement"
         review=st.text_input("statement", default_value_goes_here)
 
 
@@ -23,7 +23,7 @@ def user_input_features():
                 
                 }
         features = pd.DataFrame(data, index=[0])
-        return features
+        return review
 
 #App Title
 st.title("Sentiment predictor")
