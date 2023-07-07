@@ -29,7 +29,8 @@ def user_input_features():
 #App Title
 st.title("Sentiment Analyzer")
 image = Image.open('sentiment_analyzer_background.png')
-st.image(image)
+new_image = image.resize((600, 400))
+st.image(new_image)
 
 #st.write("Hello")
 
