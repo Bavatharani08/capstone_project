@@ -31,8 +31,8 @@ st.title("Sentiment Analyzer")
 #st.write("Hello")
 
 st.write("""
-### SENTIMENT ANALY
-This app analyse the **SENTIMENTS**
+### SENTIMENT ANALYZER
+This app analyses the **SENTIMENTS**
 """)
 st.sidebar.header('User Input Features')
 st.subheader('User Input parameters')
