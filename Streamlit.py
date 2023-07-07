@@ -43,8 +43,8 @@ div.stButton > button:hover {
 </style>""", unsafe_allow_html=True)
 
 b = st.button("Analyse")
-if st.button('Analyse'):
-    st.write(TextBox)
+# if st.button('Analyse'):
+#     st.write(TextBox)
 
 
 # In[ ]:
