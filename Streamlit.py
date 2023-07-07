@@ -14,17 +14,6 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-def user_input_features():
-        default_value_goes_here="Enter the statement"
-        review=st.text_input("statement", default_value_goes_here)
-
-
-        data = {
-                'review': review,
-                
-                }
-        features = pd.DataFrame(data, index=[0])
-        return review
 
 #App Title
 st.title("Sentiment Analyzer")
@@ -36,13 +25,16 @@ st.image(new_image)
 
 st.write("""
 ### SENTIMENT ANALYZER
-This app analyses the **SENTIMENTS**
+This app detects the **EMOTIONS** in the data
 """)
-st.sidebar.header('User Input Features')
-st.subheader('User Input parameters')
-df_features = user_input_features()
+#st.sidebar.header('User Input Features')
+st.title('Text analyser')
+TextBox = st.text_area('Enter text here...')
 
-st.write(df_features)
+if st.button('Analyse'):
+    st.write(TextBox)
+
+
 # In[ ]:
 
 
