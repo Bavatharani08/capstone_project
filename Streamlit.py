@@ -26,12 +26,12 @@ def user_input_features():
         return review
 
 #App Title
-st.title("Sentiment predictor")
+st.title("Sentiment Analyzer")
 
 #st.write("Hello")
 
 st.write("""
-### SENTIMENT PREDICTION
+### SENTIMENT ANALY
 This app analyse the **SENTIMENTS**
 """)
 st.sidebar.header('User Input Features')
