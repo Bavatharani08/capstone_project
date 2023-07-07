@@ -12,6 +12,7 @@
 
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 def user_input_features():
         default_value_goes_here="Enter the statement"
@@ -27,6 +28,8 @@ def user_input_features():
 
 #App Title
 st.title("Sentiment Analyzer")
+image = Image.open('sentiment_analyzer_background.png')
+st.image(image)
 
 #st.write("Hello")
 
