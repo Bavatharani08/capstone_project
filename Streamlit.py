@@ -5,7 +5,7 @@
 
 
 #pip install streamlit
-$ pip install nltk
+# pip install nltk
 
 # In[3]:
 
