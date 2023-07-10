@@ -4,7 +4,7 @@
 # In[4]:
 
 
-#pip install nltk
+pip3 install nltk
 
 
 # In[1]:
