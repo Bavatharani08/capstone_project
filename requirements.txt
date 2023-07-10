@@ -1,1 +1,1 @@
-ntlk
+pip install ntlk
