@@ -4,7 +4,7 @@
 # In[4]:
 
 
-pip3 install nltk
+sudo pip install -U nltk
 
 
 # In[1]:
