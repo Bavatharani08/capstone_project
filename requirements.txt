@@ -1,1 +1,1 @@
-pip install ntlk
+pip install ntlk 3.8.1
