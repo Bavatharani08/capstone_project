@@ -1,2 +1,6 @@
 nltk
 sklearn
+sklearn 
+tqdm
+regex 
+joblib
